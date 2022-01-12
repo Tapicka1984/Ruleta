@@ -43,6 +43,7 @@ namespace WindowsFormsApp4
             if (dyzkoodholky == 1)
             {
                 aktualnipocetzezonu += 10;
+                dyzkoodholky = 0;
             }
             label3.Text = aktualnipocetzezonu.ToString();
         }
